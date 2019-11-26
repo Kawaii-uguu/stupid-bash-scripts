@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~/Documents/code/SkyStone-5.2
+gradle build
+gradle assembleDebug
+gradle installDebug
+echo "install finished"
