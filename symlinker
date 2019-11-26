@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "What is the path you want to link from?"
+read fro
+echo "Where do you want to link to?
+read to
+sudo ln -s $fro $to
